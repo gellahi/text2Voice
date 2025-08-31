@@ -314,7 +314,23 @@ def main():
     # Check for API key
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
-        st.error("⚠️ GEMINI_API_KEY not found in environment variables. Please add it to your .env file.")
+        st.markdown("""
+        <div style="
+            background: linear-gradient(135deg, #ff6a00 0%, #ee0979 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 16px;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 600;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            animation: pulse 2s infinite;
+        ">
+            🚧 We’re hitting a little tech turbulence right now ✨—our crew’s on it 24/7, and we’ll be back flying smooth real soon.  
+            <br><br>
+            💜 Thanks for vibin’ with us in the meantime 🔥
+        </div>
+        """, unsafe_allow_html=True)
         st.stop()
     
     # Voice options with descriptions
