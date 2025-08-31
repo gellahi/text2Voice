@@ -316,22 +316,27 @@ def main():
     if not api_key:
         st.markdown("""
         <div style="
-            background: linear-gradient(135deg, #ff6a00 0%, #ee0979 100%);
-            color: white;
-            padding: 1.5rem;
-            border-radius: 16px;
+            background: rgba(255, 255, 255, 0.95);
+            border: 2px solid #e86666;
+            border-radius: 20px;
+            padding: 2rem;
+            margin: 2rem 0;
             text-align: center;
             font-size: 1.2rem;
             font-weight: 600;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            color: #1e293b;
+            box-shadow: 0 10px 30px rgba(232, 102, 102, 0.15);
             animation: pulse 2s infinite;
         ">
-            🚧 We’re hitting a little tech turbulence right now ✨—our crew’s on it 24/7, and we’ll be back flying smooth real soon.  
+            🚧 We’re hitting a little tech turbulence right now ✨  
             <br><br>
-            💜 Thanks for vibin’ with us in the meantime 🔥
+            Our crew’s on it 24/7, and we’ll be back flying smooth real soon.  
+            <br><br>
+            <span style="color:#e86666;">💜 Thanks for vibin’ with us in the meantime 🔥</span>
         </div>
         """, unsafe_allow_html=True)
         st.stop()
+
     
     # Voice options with descriptions
     voice_options = {
