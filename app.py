@@ -31,7 +31,7 @@ st.markdown("""
     /* Global Styles */
     .stApp {
         font-family: 'Inter', sans-serif !important;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #e86666 0%, #a04b4b 100%);
         min-height: 100vh;
     }
     
@@ -60,7 +60,7 @@ st.markdown("""
     .app-title {
         font-size: 3.5rem;
         font-weight: 700;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #e86666 0%, #a04b4b 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-bottom: 0.5rem;
@@ -69,7 +69,7 @@ st.markdown("""
     
     .app-subtitle {
         font-size: 1.25rem;
-        color: #64748b;
+        color: #896363;
         font-weight: 400;
         margin-bottom: 0;
     }
@@ -80,13 +80,13 @@ st.markdown("""
         border-radius: 16px;
         padding: 2rem;
         margin-bottom: 1.5rem;
-        border: 2px solid #e2e8f0;
+        border: 2px solid #efe3e3;
         transition: all 0.3s ease;
     }
     
     .input-section:hover {
-        border-color: #667eea;
-        box-shadow: 0 4px 20px rgba(102, 126, 234, 0.1);
+        border-color: #e86666;
+        box-shadow: 0 4px 20px rgba(232, 102, 102, 0.1);
     }
     
     .section-title {
@@ -101,7 +101,7 @@ st.markdown("""
     
     /* Custom button styling */
     .stButton > button {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #e86666 0%, #a04b4b 100%);
         color: white;
         border: none;
         border-radius: 12px;
@@ -115,25 +115,25 @@ st.markdown("""
     
     .stButton > button:hover {
         transform: translateY(-2px);
-        box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        box-shadow: 0 10px 30px rgba(232, 102, 102, 0.3);
     }
     
     /* Select box styling */
     .stSelectbox > div > div {
         background: white;
-        border: 2px solid #e2e8f0;
+        border: 2px solid #efe3e3;
         border-radius: 12px;
         transition: border-color 0.3s ease;
     }
     
     .stSelectbox > div > div:focus-within {
-        border-color: #667eea;
-        box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        border-color: #e86666;
+        box-shadow: 0 0 0 3px rgba(232, 102, 102, 0.1);
     }
     
     /* Text area styling */
     .stTextArea > div > div > textarea {
-        border: 2px solid #e2e8f0;
+        border: 2px solid #efe3e3;
         border-radius: 12px;
         padding: 1rem;
         font-size: 1rem;
@@ -142,8 +142,8 @@ st.markdown("""
     }
     
     .stTextArea > div > div > textarea:focus {
-        border-color: #667eea;
-        box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        border-color: #e86666;
+        box-shadow: 0 0 0 3px rgba(232, 102, 102, 0.1);
     }
     
     /* File uploader styling */
@@ -157,7 +157,7 @@ st.markdown("""
     }
     
     .stFileUploader > div > div:hover {
-        border-color: #667eea;
+        border-color: #e86666;
         background: #f8fafc;
     }
     
@@ -197,7 +197,7 @@ st.markdown("""
     
     .voice-card {
         background: white;
-        border: 2px solid #e2e8f0;
+        border: 2px solid #efe3e3;
         border-radius: 12px;
         padding: 1rem;
         text-align: center;
@@ -206,14 +206,14 @@ st.markdown("""
     }
     
     .voice-card:hover {
-        border-color: #667eea;
-        box-shadow: 0 4px 20px rgba(102, 126, 234, 0.1);
+        border-color: #e86666;
+        box-shadow: 0 4px 20px rgba(232, 102, 102, 0.1);
         transform: translateY(-2px);
     }
     
     .voice-card.selected {
-        border-color: #667eea;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border-color: #e86666;
+        background: linear-gradient(135deg, #e86666 0%, #a04b4b 100%);
         color: white;
     }
     
